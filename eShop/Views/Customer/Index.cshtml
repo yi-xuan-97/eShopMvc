@@ -1,0 +1,22 @@
+@* @model IEnumerable<Customer> *@
+@* <h5>@ViewBag.Title</h5> *@
+@* @{ *@
+@*     <div style="display:flex; flex-direction:row;"> *@
+@*         @foreach (var m in Model) *@
+@*         { *@
+@*             <partial name="_displayCard" model="@m"></partial> *@
+@*         } *@
+@*     </div> *@
+@*      *@
+@* } *@
+@model Customer
+<h1>Please enter your user id</h1>
+
+<form asp-action="Index" asp-controller="Customer">
+    <label for="">User Id</label>
+    <input type="text" name="id" />
+    <input type="submit" value="Login">
+</form>
+<br/>
+<h6>Here are some test data you can use: 1, 2</h6>
+

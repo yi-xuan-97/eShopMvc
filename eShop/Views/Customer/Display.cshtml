@@ -1,0 +1,7 @@
+@model Customer
+
+<h3>@Model.FullName</h3>
+<h3>@Model.Address</h3>
+<h3>@Model.PhoneNumber</h3>
+
+<a asp-action="Edit" asp-controller="Customer" asp-route-id="@Model.Id" class="btn-primary btn">Edit</a>

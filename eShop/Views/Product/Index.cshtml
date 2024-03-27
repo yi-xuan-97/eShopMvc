@@ -1,0 +1,56 @@
+@model IEnumerable<Product>
+
+<head>
+    <title>Product Information</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Product Information</h2>
+
+<table>
+    <tr>
+        <th>Product Id</th>
+        <th>Product Name</th>
+        <th>Price</th>
+        <th>Description</th>
+        <th>Unit In Stock</th>
+        <th></th>
+    </tr>
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>@product.Id</td>
+            <td>@product.Name</td>
+            <td>@product.Price</td>
+            <td>@product.Description</td>
+            <td>@product.StockQuantity</td>
+            <td>
+                @* <a href="/Product/Delete/@product.Id" class="btn-danger btn">Delete</a> *@
+                @* <a href="/Product/Edit/@product.Id" class="btn-warning btn">Edit</a> *@
+                <a  asp-action="Delete" asp-controller="Product" asp-route-id="@product.Id" class="btn-danger btn">Delete</a>
+                <a asp-action="Edit" asp-controller="Product" asp-route-id="@product.Id" class="btn-warning btn">Edit</a>
+                <a asp-action="AddCart" asp-controller="Product" asp-route-id="@product.Id" class="btn-primary btn">Add</a>
+            </td>
+        </tr>
+    }
+        
+</table>
+@* <a asp-action="Add" asp-controller="Product">Add Product</a> *@
+@* <a href="/Product/AddProduct">Add Product</a> *@
+<button class="add-button" onclick="location.href='@Url.Action("Add", "Product")'">Add Product</button>
+</body>
+

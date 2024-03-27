@@ -1,0 +1,13 @@
+@model Product
+
+@using (Html.BeginForm("AddToCart", "Product", FormMethod.Post, new { id = "myForm" }))
+{
+    @Html.HiddenFor(model => model.Id)
+}
+
+<script>
+    // Automatically submit the form when the page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('myForm').submit();
+    });
+</script>

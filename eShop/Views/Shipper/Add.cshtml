@@ -1,0 +1,47 @@
+
+@model Shipper
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Shipper</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], input[type="number"], input[type="submit"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<h2>Add Shipper</h2>
+<form id="shipperForm" asp-action="Add" asp-controller="Shipper">
+    <label for="Name">Shipper Name:</label>
+    <input type="text" id="Name" asp-for="Name" name="Name">
+    <span asp-validation-for="Name" class="text-danger"></span>
+
+    <label for="ContactNumber">Contact Number:</label>
+    <input type="text" id="ContactNumber" name="ContactNumber">
+    
+    <input type="submit" value="Add Shipper">
+</form>
+
+</body>
+</html>

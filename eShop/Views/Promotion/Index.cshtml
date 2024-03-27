@@ -1,0 +1,84 @@
+@using System.Collections
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@* @model IEnumerable<Promotion> *@
+@{
+    IEnumerable<Promotion> item1 = ViewBag.availablePromotion;
+    IEnumerable<Promotion> item2 = ViewBag.nonavailablePromotion;
+}
+<head>
+    <title>Promotion Information</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        h2{ 
+            margin-top: 5%;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Promotion Available Now</h2>
+
+<table>
+    <tr>
+        <th>Promotion Id</th>
+        <th>Name</th>
+        <th>Discount</th>
+        <th>Description</th>
+        <th></th>
+    </tr>
+    @foreach (var promotion in item1)
+    {
+        <tr>
+            <td>@promotion.Id</td>
+            <td>@promotion.Name</td>
+            <td>@promotion.Discount</td>
+            <td>@promotion.Description</td>
+            <td>
+                <a asp-action="Edit" asp-controller="Promotion" asp-route-id="@promotion.Id" class="btn-warning btn">Edit</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<button class="add-button" onclick="location.href='@Url.Action("Add", "Promotion")'">Add Promotion</button>
+
+
+<h2>Prmotion Coming Soon</h2>
+
+<table>
+    <tr>
+        <th>Promotion Id</th>
+        <th>Name</th>
+        <th>Discount</th>
+        <th>Description</th>
+        <th></th>
+    </tr>
+    @foreach (var promotion in item2)
+    {
+        <tr>
+            <td>@promotion.Id</td>
+            <td>@promotion.Name</td>
+            <td>@promotion.Discount</td>
+            <td>@promotion.Description</td>
+            <td>
+                <a asp-action="Edit" asp-controller="Promotion" asp-route-id="@promotion.Id" class="btn-warning btn">Edit</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+
+</body>

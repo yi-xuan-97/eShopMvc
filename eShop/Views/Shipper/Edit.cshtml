@@ -1,0 +1,15 @@
+@model Shipper
+
+<h1>Edit Shipper Info</h1>
+<form asp-action="Edit" asp-controller="Shipper">
+    <div>
+        <input type="hidden" value="@Model.Id"/>
+        <label for="">Name</label>
+        <input type="text" name="Name" value="@Model.Name" class="form-control"/>
+    </div>
+    <div>
+        <label>Contact Number</label>
+        <input type="text" name="ContactNumber" value="@Model.ContactNumber" class="form-control"/>
+    </div>
+    <button type="submit" class="btn-primary btn">Update</button>
+</form>

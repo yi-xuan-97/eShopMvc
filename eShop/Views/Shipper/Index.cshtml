@@ -1,0 +1,46 @@
+@model IEnumerable<Shipper>
+
+<head>
+    <title>Shipper Information</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Shipper Information</h2>
+
+<table>
+    <tr>
+        <th>Shipper Id</th>
+        <th>Shipper Name</th>
+        <th>Contact</th>
+        <th></th>
+    </tr>
+    @foreach (var shipper in Model)
+    {
+        <tr>
+            <td>@shipper.Id</td>
+            <td>@shipper.Name</td>
+            <td>@shipper.ContactNumber</td>
+            <td>
+                <a asp-action="Edit" asp-controller="Shipper" asp-route-id="@shipper.Id" class="btn-warning btn">Edit</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<button class="add-button" onclick="location.href='@Url.Action("Add", "Shipper")'">Add Shipper</button>
+</body>

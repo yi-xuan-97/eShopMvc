@@ -1,0 +1,61 @@
+@model IEnumerable<Category>
+<head>
+    <title>Product Information</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        h3 {
+            margin-top: 5%;
+        }
+    </style>
+</head>
+@foreach(var category in Model){
+    <h3>@category.Name</h3>
+    <p>@category.Description</p>
+    if (category.Products.Count > 0)
+    {
+        
+    
+<table>
+    <tr>
+        <th>Product Id</th>
+        <th>Product Name</th>
+        <th>Price</th>
+        <th>Description</th>
+        <th>Unit In Stock</th>
+        <th></th>
+    </tr>
+    @foreach (var product in category.Products)
+    {
+        <tr>
+            <td>@product.Id</td>
+            <td>@product.Name</td>
+            <td>@product.Price</td>
+            <td>@product.Description</td>
+            <td>@product.StockQuantity</td>
+            <td>
+                <a asp-action="Delete" asp-controller="Product" asp-route-id="@product.Id" class="btn-danger btn">Delete</a>
+                <a asp-action="Edit" asp-controller="Product" asp-route-id="@product.Id" class="btn-warning btn">Edit</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<button class="btn-primary btn" onclick="location.href='@Url.Action("Add", "Product")'">Add Product</button>
+    }
+    else
+    {
+        <h6>No Product Currently available in this Category</h6>
+    }
+}

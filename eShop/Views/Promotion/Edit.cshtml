@@ -1,0 +1,29 @@
+
+@model Promotion
+
+<h1>Edit Shipper Info</h1>
+<form asp-action="Edit" asp-controller="Promotion">
+    <div>
+        <input type="hidden" value="@Model.Id"/>
+        <label for="">Name</label>
+        <input type="text" name="Name" value="@Model.Name" class="form-control"/>
+    </div>
+    <div>
+        <label>Discount</label>
+        <input type="text" name="Discount" value="@Model.Discount" class="form-control"/>
+    </div>
+    <div>
+        <label>Description</label>
+        <input type="text" name="Description" value="@Model.Description" class="form-control"/>
+    </div>
+    <div>
+        <label>Start Date</label>
+        <input type="text" name="StartDate" value="@Model.StartDate" class="form-control"/>
+    </div>
+    <div>
+        <label>End Date</label>
+        <input type="text" name="EndDate" value="@Model.EndDate" class="form-control"/>
+    </div>
+    
+    <button type="submit" class="btn-primary btn">Update</button>
+</form>

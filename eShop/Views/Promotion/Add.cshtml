@@ -1,0 +1,57 @@
+@model Promotion
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Promotion</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], input[type="number"], input[type="submit"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<h2>Add Promotion</h2>
+<form id="promotionForm" asp-action="Add" asp-controller="Promotion">
+    <label for="Name">Name:</label>
+    <input type="text" id="Name" asp-for="Name" name="Name">
+    <span asp-validation-for="Name" class="text-danger"></span>
+
+    <label for="Discount">Discount</label>
+    <input type="text" id="Discount" name="Discount">
+    
+     <label for="Description">Description</label>
+    <input type="text" id="Description"  name="Description">
+    
+     <label for="StartDate">StartDate</label>
+    <input type="text" id="StartDate" value="@DateTime.Today" name="StartDate">
+    
+     <label for="EndDate">EndDate</label>
+    <input type="text" id="EndDate" value="@DateTime.Today" name="EndDate">
+    
+    
+
+    <input type="submit" value="Add Promotion">
+</form>
+
+</body>
+</html>

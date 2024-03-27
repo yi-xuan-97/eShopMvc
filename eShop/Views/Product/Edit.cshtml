@@ -1,0 +1,23 @@
+@model Product
+
+<h1>Edit Product</h1>
+<form asp-action="Edit" asp-controller="Product">
+    <div>
+        <input type="hidden" value ="@Model.Id" />
+        <label for="">Name</label>
+        <input type="text" name="Name" value="@Model.Name" class="form-control"/>
+    </div>
+    <div>
+        <label>Price</label>
+        <input type="text" name="Price" value="@Model.Price" class="form-control"/>
+    </div>
+    <div>
+        <label>Description</label>
+        <input type="text" name="Description" value="@Model.Description" class="form-control"/>
+    </div>
+    <div>
+        <label>In Stock</label>
+        <input type="text" name="StockQuantity" value="@Model.StockQuantity" class="form-control"/>
+    </div>
+    <button type="submit" class="btn-primary btn">Update</button>
+</form>

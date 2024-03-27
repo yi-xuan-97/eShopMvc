@@ -1,0 +1,51 @@
+@model IEnumerable<Product>
+
+<head>
+    <title>Product Information</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+@{
+    if (Model != null)
+    {
+        <h2>Product Information</h2>
+        <table>
+            <tr>
+                <th>Product Id</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th></th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Price</td>
+                    <td>@item.Description</td>
+                    <td>
+                        <a  asp-action="Delete" asp-controller="Product" asp-route-id="@item.Id" class="btn-danger btn">Delete</a>
+                    </td>
+                </tr>
+            }
+        </table>
+        <a asp-action="CheckOut" asp-controller="ShoppingCart">Check out</a>
+    }
+    else
+    {
+        <h3>There is not item in your shopping cart</h3>
+    }
+}

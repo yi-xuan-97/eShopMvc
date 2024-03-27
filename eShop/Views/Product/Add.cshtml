@@ -1,0 +1,53 @@
+@model Product
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], input[type="number"], input[type="submit"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h2>Add Product</h2>
+    <form id="productForm" asp-action="Add" asp-controller="Product">
+        <label for="Name">Product Name:</label>
+        <input type="text" id="Name"  asp-for="Name"  name="Name">
+        <span asp-validation-for="Name" class="text-danger"></span>
+
+        <label for="Description">Description:</label>
+        <input type="text" id="Description" name="Description">
+
+        <label for="Price">Price:</label>
+        <input type="text" id="Price" asp-for="Price" name="Price" >
+        <span asp-validation-for="Price" class="text-danger"></span>
+
+        <label for="StockQuantity">Units In Stock:</label>
+        <input type="text" id="StockQuantity" name="StockQuantity" min="0" >
+
+        <input type="submit" value="Add Product">
+    </form>
+
+</body>
+</html>

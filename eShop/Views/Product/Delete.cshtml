@@ -1,0 +1,19 @@
+@model Product
+
+<h2>Are you sure you want to delete following?</h2>
+<form asp-action="Delete" asp-controller="Product">
+    <div>
+        <input type="hidden" name="Id" value="@Model.Id"/>
+    </div>
+    <div>
+        <label>Name</label> <label name="Name">@Model.Name</label>
+    </div>
+    <div>
+        <label>Price</label> <label name="Price">@Model.Price</label> 
+    </div>
+    <div>
+        <label>Description</label> <label name="Description">@Model.Description</label> 
+    </div>
+    <button class="btn-danger btn">Yes</button>
+    <a href="/home" class="btn-default btn">No</a>
+</form>
