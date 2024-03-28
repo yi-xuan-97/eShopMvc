@@ -9,119 +9,119 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = eShop
 build_property.RootNamespace = eShop
-build_property.ProjectDir = /Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/
+build_property.ProjectDir = /Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop
+build_property.MSBuildProjectDirectory = /Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Category/Index.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Customer/Display.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Customer/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRGlzcGxheS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Customer/Edit.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Customer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Customer/Index.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Home/Index.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Home/Privacy.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Order/Index.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Product/Add.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Product/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9BZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Product/AddCart.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Product/AddCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9BZGRDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Product/Delete.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Product/Edit.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Product/Index.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Product/ShoppingCart.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Product/ShoppingCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9TaG9wcGluZ0NhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Promotion/Add.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Promotion/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvbW90aW9uL0FkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Promotion/Edit.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Promotion/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvbW90aW9uL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Promotion/Index.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Promotion/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvbW90aW9uL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Shared/Error.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Shared/_displayCard.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Shared/_displayCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19kaXNwbGF5Q2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Shipper/Add.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Shipper/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hpcHBlci9BZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Shipper/Edit.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Shipper/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hpcHBlci9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Shipper/Index.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Shipper/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hpcHBlci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/ShoppingCart/CheckOut.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/ShoppingCart/CheckOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcHBpbmdDYXJ0L0NoZWNrT3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/ShoppingCart/Index.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/ShoppingCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcHBpbmdDYXJ0L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/_ViewImports.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/_ViewStart.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop/Views/Shared/_Layout.cshtml]
+[/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lj0cakrtx7

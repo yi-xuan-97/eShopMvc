@@ -1,0 +1,8 @@
+﻿services:
+  eshop:
+    image: eshop
+    build:
+      context: .
+      dockerfile: eShop/Dockerfile
+    ports:
+      - '61653:8080'

@@ -1,0 +1,22 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  eshop:
+    build:
+      context: "/Users/yixuanfeng/Documents/GitHub/eShopMvc"
+      dockerfile: "eShop/Dockerfile"
+      target: "build"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/eShop.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_STATICWEBASSETS: "/app/bin/Debug/net8.0/eShop.staticwebassets.runtime.CT.json"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "eshop:dev"
+    ports: []
+    volumes:
+    - "/Users/yixuanfeng/.nuget/packages:/root/.nuget/packages"
+    - "/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop:/app:rw"
+    - "/Users/yixuanfeng/Documents/GitHub/eShopMvc:/src:rw"
+    working_dir: "/app"

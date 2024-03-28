@@ -12,10 +12,18 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<eShopDbContext>(option =>
-{
-    option.UseSqlServer(builder.Configuration.GetConnectionString("eShopDbConnection"));
-});
+// builder.Services.AddDbContext<eShopDbContext>(option =>
+// {
+//     option.UseSqlServer(builder.Configuration.GetConnectionString("eShopDbConnection"));
+// });
+
+builder.Services.AddDbContext<eShopDbContext>(
+    option =>
+    {
+        option.UseSqlServer(Environment.GetEnvironmentVariable("eShopDb"));
+        // option.UseSqlServer(builder.Configuration.GetConnectionString("EshopDb"));
+    }
+);
 
 //Repository
 builder.Services.AddScoped<IProductRepositoryAsync, ProductRepositoryAsync>();

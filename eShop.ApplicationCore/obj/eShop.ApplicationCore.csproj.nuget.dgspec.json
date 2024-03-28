@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop.ApplicationCore/eShop.ApplicationCore.csproj": {}
+    "/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop.ApplicationCore/eShop.ApplicationCore.csproj": {}
   },
   "projects": {
-    "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop.ApplicationCore/eShop.ApplicationCore.csproj": {
+    "/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop.ApplicationCore/eShop.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop.ApplicationCore/eShop.ApplicationCore.csproj",
+        "projectUniqueName": "/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop.ApplicationCore/eShop.ApplicationCore.csproj",
         "projectName": "eShop.ApplicationCore",
-        "projectPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop.ApplicationCore/eShop.ApplicationCore.csproj",
+        "projectPath": "/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop.ApplicationCore/eShop.ApplicationCore.csproj",
         "packagesPath": "/Users/yixuanfeng/.nuget/packages/",
-        "outputPath": "/Users/yixuanfeng/Documents/GitHub/AntraAssignment/eShop_Assignment/eShop Assignment/eShop.ApplicationCore/obj/",
+        "outputPath": "/Users/yixuanfeng/Documents/GitHub/eShopMvc/eShop.ApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/yixuanfeng/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
